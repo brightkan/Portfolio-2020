@@ -12,14 +12,14 @@ import { Helmet } from "react-helmet";
 
 //--Motasim Foads Portfolio website Google analytics--
 //--Replace with your own key !!
-function Analytics() {
-  ReactGa.initialize("UA-154721739-1");
-  ReactGa.pageview("motasimfoad.com - Home Screen");
-}
+// function Analytics() {
+//   ReactGa.initialize("UA-154721739-1");
+//   ReactGa.pageview("motasimfoad.com - Home Screen");
+// }
 //--Bright Kanyange Portfolio website Google analytics--
 
 function Home() {
-  Analytics();
+  // Analytics();
   return (
     <div>
       <Helmet>

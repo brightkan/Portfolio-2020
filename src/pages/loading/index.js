@@ -14,8 +14,8 @@ class Loading extends Component {
     this.id = setTimeout(() => this.setState({ redirect: true }), 3000);
     //--Motasim Foads Portfolio website Google analytics--
     //--Replace with your own key !!
-    ReactGA.initialize("UA-154721739-1");
-    ReactGA.pageview("motasimfoad.com - Loading Screen");
+    // ReactGA.initialize("UA-154721739-1");
+    // ReactGA.pageview("motasimfoad.com - Loading Screen");
     //--Motasim Foads Portfolio website Google analytics--
   }
 
