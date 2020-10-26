@@ -9,7 +9,7 @@ function Home_Left() {
     <Container className="home-left">
       <Row className="home-left-main">
         <Col xl={12} className="home-left-main-col">
-          <h1 className="first-line">Hello!</h1>
+          <h1 className="first-line">Hi!</h1>
           <h2 className="second_line">
             I am <strong>Bright Kanyange</strong>
           </h2>

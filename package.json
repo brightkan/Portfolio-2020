@@ -2,6 +2,7 @@
   "name": "portfolio-2020",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://brightkan.tk/",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
@@ -10,6 +11,7 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "bootstrap": "^4.4.1",
     "emailjs-com": "^2.4.1",
+    "gh-pages": "^3.1.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
@@ -32,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
