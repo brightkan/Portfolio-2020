@@ -29,7 +29,7 @@ function SocialIcons() {
         <FontAwesomeIcon className="git" icon={faGithub} />
       </a>
       <a
-        href="https://twitter.com/DaSmirk"
+        href="https://twitter.com/BrightKanyange"
         target="_blank"
         rel="noopener noreferrer"
       >
