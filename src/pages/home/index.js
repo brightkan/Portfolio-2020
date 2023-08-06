@@ -7,7 +7,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Animate from "react-smooth";
 import Particles from "react-particles-js";
 import particles from "../../const/particle.js";
-import ReactGa from "react-ga";
 import { Helmet } from "react-helmet";
 
 //--Motasim Foads Portfolio website Google analytics--

@@ -3,7 +3,6 @@ import "../about/style.css";
 import { Container, Row } from "react-bootstrap";
 import Footer from "../../components/footer";
 import Animate from "react-smooth";
-import ReactGa from "react-ga";
 import { Helmet } from "react-helmet";
 import CV from "../../components/cv";
 import HamburgerMenu from "../../components/hamburger_menu";
