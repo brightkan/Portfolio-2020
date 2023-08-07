@@ -27,6 +27,16 @@ function Home_Left() {
             size="lg"
             className="home-left-aboutmme-btn"
           >
+              <a href="https://drive.google.com/file/d/1TtU7k7TmTzICJGImt6yo3hBHVEinjKbv/view" target="_blank"  rel="noopener noreferrer"   style={{ textDecoration: "none", color: "white" }}
+              className="home-left-aboutme"> Download Resume</a>
+             
+            
+          </Button>{" "}
+          <Button
+            variant="outline-light"
+            size="lg"
+            className="home-left-aboutmme-btn"
+          >
             <Link
               to="/about"
               style={{ textDecoration: "none", color: "white" }}
