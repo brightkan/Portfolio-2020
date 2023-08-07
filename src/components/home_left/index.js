@@ -15,7 +15,7 @@ function Home_Left() {
           </h2>
           <h3>
             <ReactTypingEffect
-              text="Web Developer || Software Engineer ... " //text=["Hello.", "World!"]
+              text="Python Developer | Django | React | Flutter" //text=["Hello.", "World!"]
               className="typical"
               speed="100"
               eraseDelay="500000"
