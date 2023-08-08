@@ -27,7 +27,7 @@ function Home_Left() {
             size="lg"
             className="home-left-aboutmme-btn"
           >
-              <a href="https://drive.google.com/file/d/1TtU7k7TmTzICJGImt6yo3hBHVEinjKbv/view" target="_blank"  rel="noopener noreferrer"   style={{ textDecoration: "none", color: "white" }}
+              <a href="https://drive.google.com/file/d/1LW_L4V2qYvFRQnCd4Um8KY3NvSQtXb-w/view?usp=sharing" target="_blank"  rel="noopener noreferrer"   style={{ textDecoration: "none", color: "white" }}
               className="home-left-aboutme"> Download Resume</a>
              
             
