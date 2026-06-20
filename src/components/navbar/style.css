@@ -1,0 +1,39 @@
+.site-navbar {
+  background-color: rgba(9, 9, 9, 0.95);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 196, 102, 0.25);
+  z-index: 1000;
+}
+
+.navbar-brand-name {
+  color: #fff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+}
+
+.navbar-brand-name:hover {
+  color: #FFC466;
+}
+
+.site-navbar .nav-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s;
+  letter-spacing: 0.03em;
+}
+
+.site-navbar .nav-link:hover,
+.site-navbar .nav-link.active {
+  color: #FFC466 !important;
+}
+
+.navbar-toggler-custom {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler-custom .navbar-toggler-icon {
+  filter: invert(1);
+}

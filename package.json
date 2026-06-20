@@ -1,56 +1,42 @@
 {
   "name": "portfolio-2020",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "homepage": "http://brightkan.dev/",
+  "type": "module",
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-brands-svg-icons": "^5.11.2",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.7",
-    "bootstrap": "^4.4.1",
-    "emailjs-com": "^2.4.1",
-    "gh-pages": "^3.1.0",
-    "node-sass": "^9.0.0",
-    "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-copy-to-clipboard": "^5.0.2",
-    "react-dom": "^16.12.0",
-    "react-ga": "^2.7.0",
-    "react-helmet": "^5.2.1",
-    "react-image-lightbox": "^5.1.1",
-    "react-particles-js": "^2.7.0",
-    "react-reveal": "^1.2.2",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0",
-    "react-smooth": "^1.0.5",
-    "react-spinners": "^0.9.0",
-    "react-toasts": "^3.0.6",
-    "react-typing-effect": "^2.0.2",
-    "styled-components": "^4.4.1"
+    "@emailjs/browser": "^4.4.1",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@tsparticles/react": "^4.1.1",
+    "@tsparticles/slim": "^4.1.1",
+    "bootstrap": "^5.3.3",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.9",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.30.1",
+    "react-spinners": "^0.15.0",
+    "react-type-animation": "^3.2.0",
+    "sass": "^1.89.2",
+    "yet-another-react-lightbox": "^3.23.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.3.5"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }

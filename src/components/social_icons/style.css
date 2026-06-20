@@ -1,6 +1,11 @@
-.social-icons{
-    text-align: center;
-  }
+.social-icons {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
  
   .fb{
     margin: 2%;
