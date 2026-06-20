@@ -4,12 +4,19 @@
 
   .home-right-main{
     height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
   }
 
   .home-right-main-img{
-      height: 65vh;
-      margin: auto;    
+      height: 62vh;
+      max-width: 100%;
+      object-fit: contain;
+      margin: auto;
       display: block;
+      filter: drop-shadow(0 0 28px rgba(255, 196, 102, 0.4)) drop-shadow(0 0 60px rgba(255, 196, 102, 0.15));
   }
 
   .home-right-footer{

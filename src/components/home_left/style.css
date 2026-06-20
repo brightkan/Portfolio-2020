@@ -7,10 +7,13 @@
 .home-left-main{
     height: 100%;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-left-main-col{
-    margin: auto;    
+    width: 100%;
     display: block;
 }
 
@@ -43,6 +46,32 @@
  }
 
 .home-left-aboutmme-btn:hover{
-     background: #666666;
+     background: rgba(255, 196, 102, 0.1);
  }
+
+.btn-cta-secondary {
+  background-color: transparent;
+  border: 1.5px solid #FFC466;
+  color: #FFC466;
+  font-weight: 500;
+}
+
+.btn-cta-secondary:hover {
+  background-color: #FFC466;
+  border-color: #FFC466;
+  color: #000;
+}
+
+.btn-cta-primary {
+  background-color: #FFC466;
+  border-color: #FFC466;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-cta-primary:hover {
+  background-color: #e6af5a;
+  border-color: #e6af5a;
+  color: #000;
+}
 

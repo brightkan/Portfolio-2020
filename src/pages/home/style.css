@@ -5,11 +5,11 @@
   }
   
 .App-main {
-    min-height: 95vh; 
+    height: calc(100vh - 108px);
   }
 
 .App-footer {
-    min-height: 5vh; 
+    height: 48px;
   }  
 
 .particle{

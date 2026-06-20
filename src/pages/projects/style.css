@@ -1,25 +1,24 @@
 .About-header {
-  background-color:#090909;
- }
-
-.About-main {
-  min-height: 95vh;
+  background-color: #090909;
 }
 
-.d1{
-  height: 100%;
-  width: 100%;
- }
+.projects-main {
+  min-height: auto;
+  align-content: flex-start;
+  padding-bottom: 3rem;
+}
 
-.d2{
-  height: 100%;
-  width: 100%;
- }
+.projects-content {
+  padding: 2rem 1rem 1rem;
+}
 
-.d3{
-  height: 100%;
-  width: 100%;
- }
+.projects-heading {
+  font-family: 'Sulphur Point', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
 
 .About-footer {
   min-height: 5vh;

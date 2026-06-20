@@ -1,27 +1,27 @@
 .Contact-header {
-  background-color:#090909;
+  background-color: #090909;
   color: white;
 }
 
-.Hamburger-menu{
-  min-height: 7vh; 
-}
-
 .Contact-main {
-  min-height: 88vh; 
- }
-
-.Contact-left{
-  margin: auto;    
-  display: block;
+  min-height: auto;
+  align-items: flex-start;
+  padding: 3rem 0 3rem;
 }
 
-.Contact-right{
-  margin: auto;    
-  display: block;
+.Contact-left {
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.Contact-right {
+  padding: 2rem 1rem;
 }
 
 .Contact-footer {
-  min-height: 5vh; 
-}  
+  min-height: 5vh;
+}
 

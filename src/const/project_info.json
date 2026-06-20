@@ -5,14 +5,12 @@
       "name": "Soliton Bakozi",
       "tools": "Python, JavaScript, Flutter",
       "link": "https://bakozi.tk",
+      "color": "#4ade80",
+      "description": "Full-stack platform for wildlife conservation tracking and community management.",
       "image": [
         "https://motasimfoad.com/webasset/iat/1.png",
         "https://motasimfoad.com/webasset/iat/2.png",
-        "https://motasimfoad.com/webasset/iat/3.png",
-        "https://motasimfoad.com/webasset/iat/4.png",
-        "https://motasimfoad.com/webasset/iat/5.png",
-        "https://motasimfoad.com/webasset/iat/6.png",
-        "https://motasimfoad.com/webasset/iat/7.png"
+        "https://motasimfoad.com/webasset/iat/3.png"
       ]
     },
     {
@@ -20,14 +18,12 @@
       "name": "Sandhbolt Website",
       "tools": "Python, JavaScript, HTML 5",
       "link": "https://sandhbolt.com/",
+      "color": "#60a5fa",
+      "description": "Corporate website for a technology solutions company, built with Django and deployed on AWS.",
       "image": [
         "https://motasimfoad.com/webasset/iat/1.png",
         "https://motasimfoad.com/webasset/iat/2.png",
-        "https://motasimfoad.com/webasset/iat/3.png",
-        "https://motasimfoad.com/webasset/iat/4.png",
-        "https://motasimfoad.com/webasset/iat/5.png",
-        "https://motasimfoad.com/webasset/iat/6.png",
-        "https://motasimfoad.com/webasset/iat/7.png"
+        "https://motasimfoad.com/webasset/iat/3.png"
       ]
     },
     {
@@ -35,29 +31,25 @@
       "name": "2A Associates Website",
       "tools": "Python, JavaScript, HTML 5",
       "link": "https://2aassociatesltd.com/",
+      "color": "#a78bfa",
+      "description": "Corporate site for a consulting and advisory firm, featuring service pages and contact forms.",
       "image": [
         "https://motasimfoad.com/webasset/iat/1.png",
         "https://motasimfoad.com/webasset/iat/2.png",
-        "https://motasimfoad.com/webasset/iat/3.png",
-        "https://motasimfoad.com/webasset/iat/4.png",
-        "https://motasimfoad.com/webasset/iat/5.png",
-        "https://motasimfoad.com/webasset/iat/6.png",
-        "https://motasimfoad.com/webasset/iat/7.png"
+        "https://motasimfoad.com/webasset/iat/3.png"
       ]
     },
     {
       "id": 3,
-      "name": "Anti Money Laudering bank app",
+      "name": "Anti Money Laundering App",
       "tools": "Python, Java, JESS",
       "link": "#",
+      "color": "#f97316",
+      "description": "Expert system using rule-based AI (JESS) to flag and analyse suspicious banking transactions.",
       "image": [
         "https://motasimfoad.com/webasset/iat/1.png",
         "https://motasimfoad.com/webasset/iat/2.png",
-        "https://motasimfoad.com/webasset/iat/3.png",
-        "https://motasimfoad.com/webasset/iat/4.png",
-        "https://motasimfoad.com/webasset/iat/5.png",
-        "https://motasimfoad.com/webasset/iat/6.png",
-        "https://motasimfoad.com/webasset/iat/7.png"
+        "https://motasimfoad.com/webasset/iat/3.png"
       ]
     },
     {
@@ -65,14 +57,12 @@
       "name": "Remote Voting System",
       "tools": "PHP, JavaScript, HTML 5",
       "link": "#",
+      "color": "#fb7185",
+      "description": "Secure online voting platform built for university student elections in developing countries.",
       "image": [
         "https://motasimfoad.com/webasset/iat/1.png",
         "https://motasimfoad.com/webasset/iat/2.png",
-        "https://motasimfoad.com/webasset/iat/3.png",
-        "https://motasimfoad.com/webasset/iat/4.png",
-        "https://motasimfoad.com/webasset/iat/5.png",
-        "https://motasimfoad.com/webasset/iat/6.png",
-        "https://motasimfoad.com/webasset/iat/7.png"
+        "https://motasimfoad.com/webasset/iat/3.png"
       ]
     }
   ]

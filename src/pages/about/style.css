@@ -3,7 +3,8 @@
  }
 
 .About-main {
-  min-height: 95vh;
+  min-height: auto;
+  padding-bottom: 3rem;
 }
 
 .d1{

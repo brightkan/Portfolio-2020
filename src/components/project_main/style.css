@@ -1,36 +1,90 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Raleway+Dot|Asap|Barlow|Glegoo|Julius+Sans+One|Lato|Muli|Poiret+One|Sulphur+Point|Turret+Road&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Raleway|Sulphur+Point|Poppins&display=swap');
 
-.main_row{
-    font-family: 'Sulphur Point', sans-serif;
-}
-.card_col{
-    padding-left: 4%;
-    padding-top: 4%;
+.main_row {
+  font-family: 'Poppins', sans-serif;
 }
 
-.card_main{
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border-color: white;
-    text-align: right;
+.card_col {
+  padding: 0.75rem;
 }
 
-.card_main:hover{
-   transition: all 0.2s ease-out;
-   top: -4px;
-   background: rgba(255, 255, 255, 0.15);
-   box-shadow: 0px 4px 35px rgb(255, 255, 255);
+.card_main {
+  background: rgba(255, 255, 255, 0.06);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border-color 0.2s ease-out;
 }
 
-.blockquote-footer{
-    color: white;
+.card_main:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 196, 102, 0.4);
+  box-shadow: 0 8px 30px rgba(255, 196, 102, 0.12);
 }
 
-.icon{
-    color: white;
-    cursor: pointer;
+.card_accent {
+  height: 3px;
+  border-top: 3px solid;
+  flex-shrink: 0;
 }
 
-.icon:hover{
-    color: rgb(255, 196, 102);
- }
+.card_body_content {
+  flex: 1;
+  padding: 1.1rem 1.2rem 0.75rem;
+}
+
+.card_title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  margin-bottom: 0.45rem;
+  color: white;
+}
+
+.card_desc {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.58);
+  line-height: 1.6;
+  margin-bottom: 0.85rem;
+}
+
+.card_tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.card_tool_tag {
+  background: rgba(255, 196, 102, 0.1);
+  border: 1px solid rgba(255, 196, 102, 0.28);
+  color: rgba(255, 196, 102, 0.85);
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card_footer {
+  background: rgba(255, 255, 255, 0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.icon {
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.icon:hover {
+  color: #FFC466;
+}

@@ -1,6 +1,18 @@
-body, html {
+:root {
+  --primary-color: #FFC466;
+}
+
+html {
   margin: 0;
   height: 100%;
+  background-color: #090909 !important;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding-top: 60px;
+  background-color: #090909 !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -9,6 +21,46 @@ body, html {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Page / component enter animations (replaces react-reveal + react-smooth) */
+@keyframes pageFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-60px); opacity: 0; }
+  to   { transform: translateX(0);     opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from { transform: translateY(-20px); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+
+@keyframes rollInRight {
+  from { transform: translateX(60px) rotate(120deg); opacity: 0; }
+  to   { transform: translateX(0)    rotate(0deg);   opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.85); opacity: 0; }
+  to   { transform: scale(1);    opacity: 1; }
+}
+
+.page-fade-in  { animation: pageFadeIn  0.5s ease-in-out; }
+.slide-in-left { animation: slideInLeft 0.6s ease-out; }
+.fade-in-down  { animation: fadeInDown  0.5s ease-out; }
+.roll-in-right { animation: rollInRight 0.7s ease-out; }
+.zoom-in       { animation: zoomIn      0.5s ease-out; }
+
+/* Loading screen */
+.Loading-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0a0a0a;
 }
